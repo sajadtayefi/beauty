@@ -17,9 +17,6 @@ export function Hero() {
         aria-hidden
         className="pointer-events-none absolute -top-40 start-1/2 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-accent/10 blur-3xl rtl:translate-x-1/2"
       />
-      <span>
-        this is mew code
-      </span>
       <div
         aria-hidden
         className="pointer-events-none absolute -bottom-24 end-[-6rem] h-80 w-80 rounded-full bg-primary/5 blur-3xl"
