@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5efe4"/><stop offset="1" stop-color="#e0d2bd"/>
+    </linearGradient>
+    <linearGradient id="nail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7ecdd"/><stop offset="1" stop-color="#ecd6bf"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="62" y="252" width="74" height="204" rx="37"/></clipPath>
+    <clipPath id="c2"><rect x="150" y="240" width="74" height="204" rx="37"/></clipPath>
+    <clipPath id="c3"><rect x="238" y="236" width="74" height="204" rx="37"/></clipPath>
+    <clipPath id="c4"><rect x="326" y="248" width="74" height="204" rx="37"/></clipPath>
+  </defs>
+  <rect width="480" height="600" fill="url(#bg)"/>
+  <g transform="rotate(-5 240 360)">
+    <g clip-path="url(#c1)">
+      <rect x="62" y="252" width="74" height="204" rx="37" fill="url(#nail)"/>
+      <circle cx="86" cy="300" r="6" fill="#d9a441" opacity="0.9"/>
+      <circle cx="112" cy="330" r="4" fill="#d9a441" opacity="0.7"/>
+      <circle cx="94" cy="368" r="8" fill="#d9a441" opacity="0.85"/>
+      <circle cx="120" cy="402" r="3.5" fill="#d9a441" opacity="0.65"/>
+    </g>
+    <g clip-path="url(#c2)">
+      <rect x="150" y="240" width="74" height="204" rx="37" fill="url(#nail)"/>
+      <circle cx="172" cy="286" r="7" fill="#d9a441" opacity="0.85"/>
+      <circle cx="200" cy="318" r="4" fill="#d9a441" opacity="0.7"/>
+      <circle cx="180" cy="360" r="5.5" fill="#d9a441" opacity="0.9"/>
+      <circle cx="206" cy="398" r="8" fill="#d9a441" opacity="0.75"/>
+    </g>
+    <g clip-path="url(#c3)">
+      <rect x="238" y="236" width="74" height="204" rx="37" fill="url(#nail)"/>
+      <circle cx="260" cy="282" r="4.5" fill="#d9a441" opacity="0.8"/>
+      <circle cx="288" cy="308" r="7.5" fill="#d9a441" opacity="0.9"/>
+      <circle cx="266" cy="352" r="5" fill="#d9a441" opacity="0.7"/>
+      <circle cx="294" cy="392" r="6.5" fill="#d9a441" opacity="0.85"/>
+    </g>
+    <g clip-path="url(#c4)">
+      <rect x="326" y="248" width="74" height="204" rx="37" fill="url(#nail)"/>
+      <circle cx="350" cy="296" r="6.5" fill="#d9a441" opacity="0.9"/>
+      <circle cx="378" cy="326" r="4" fill="#d9a441" opacity="0.65"/>
+      <circle cx="358" cy="366" r="8.5" fill="#d9a441" opacity="0.8"/>
+      <circle cx="384" cy="404" r="4.5" fill="#d9a441" opacity="0.75"/>
+    </g>
+  </g>
+</svg>
